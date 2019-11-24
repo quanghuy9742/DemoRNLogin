@@ -37,6 +37,8 @@ target 'DemoRNLogin' do
   pod 'RNFBAuth', :path => '../node_modules/@react-native-firebase/auth'
   pod 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/RNGestureHandler.podspec'
 
+  pod 'RNFBDatabase', :path => '../node_modules/@react-native-firebase/database'
+
   target 'DemoRNLoginTests' do
     inherit! :search_paths
     # Pods for testing
