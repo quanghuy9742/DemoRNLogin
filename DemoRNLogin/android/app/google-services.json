@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "127742383748",
+    "firebase_url": "https://demornl.firebaseio.com",
+    "project_id": "demornl",
+    "storage_bucket": "demornl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127742383748:android:be795a68ca7cdad2d3d4d1",
+        "android_client_info": {
+          "package_name": "com.demornlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127742383748-mvpmomkkiv8tbd3s8n5hipr9lrb9gsuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh9XWK5qTUN54TiTBeyw1q5kyALHgNjO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127742383748-mvpmomkkiv8tbd3s8n5hipr9lrb9gsuq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "127742383748-mvbuh8com7o6fnvfq96bdl1d21uvd2lb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.DemoRNLogin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
