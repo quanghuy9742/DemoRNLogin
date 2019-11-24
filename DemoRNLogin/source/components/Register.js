@@ -28,6 +28,11 @@ export default class Register extends React.Component {
     }
 
     _onRegister = _ => {
+        if(this.firstName == '' || this.lastName == '' || this.phoneNumber == '' || this.password == '') {
+            alert('Vui lòng điền đầy đủ thông tin');
+            return;
+        }
+
         database().ref(`/users/${this.phoneNumber}`).once('value').then(async snapshot => {
             if(snapshot.val() !== null) {
                 alert('Số điện thoại đã được đăng ký');
@@ -42,6 +47,8 @@ export default class Register extends React.Component {
                 password: this.password,
                 result: result
             });
+        }).catch(error => {
+            alert(error.message);
         });
     }
 
