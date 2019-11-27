@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput, Alert } from "react-native";
+import { View, Text, TextInput, Alert, Button } from "react-native";
 import database from '@react-native-firebase/database';
 import auth from '@react-native-firebase/auth';
 
@@ -49,7 +49,7 @@ export default class Verify extends React.Component {
                     {
                         text: 'OK',
                         onPress: _ => {
-                            this.props.navigate.navigation('Home');
+                            this.props.navigation.navigate('Home');
                         },
                     },
                 ]
